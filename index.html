@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Expenses Chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="main">
+
+  <!-- BALANCE -->
+  <section class="balance">
+    <div>
+      <p>My balance</p>
+      <h2 class="balance_amount">$921.48</h2>
+    </div>
+    <div class="logo"></div>
+  </section>
+
+  <!-- SPENDING -->
+  <section class="spending">
+    <h3>Spending - Last 7 days</h3>
+
+    <div id="spending-chart"></div>
+
+    <hr />
+
+    <div class="spending-summary">
+      <p class="spending_total">
+        Total this month <span>$478.33</span>
+      </p>
+
+      <p class="spending_comparison">
+        <strong>+2.4%</strong><br />
+        from last month
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  Challenge by <a href="https://crio.do" target="_blank">Crio</a>.
+  <a href="https://github.com/arvind37">Arvind Kumawat</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
